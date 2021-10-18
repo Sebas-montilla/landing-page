@@ -1,0 +1,24 @@
+.callTo {
+    background-color: white;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+}
+
+.box2{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+}
+
+.box-call{
+    position: absolute;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 900px;
+}

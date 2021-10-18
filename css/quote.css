@@ -1,0 +1,13 @@
+.quote{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.text{
+    display: flex;
+    padding: 100px;
+    align-items: center;
+}

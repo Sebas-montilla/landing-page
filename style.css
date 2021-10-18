@@ -5,19 +5,14 @@
 
 body {
     color: rgb(255, 0, 0);
-    height: 100vh;
+    font-family: 'Heebo', sans-serif;
     text-align: center;
     font-size: 24px;
-    margin: 0;
-    /* display: flex; */
-}
-
-.quote {
-    background-color: #e5e7eb;
 }
 
 .footer {
     background-color: #1f2937;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    color: #b1b1b1;
+    font-size: 15px;
+    padding: 20px;
 }   
