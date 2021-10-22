@@ -19,6 +19,45 @@
     background-color: #3882f6;
     border-radius: 10px;
     padding: 10px;
-    height: 100px;
+    height: 120px;
     width: 900px;
+}
+
+.text1{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    padding: 30px 0px 20px 100px;
+    text-align: left;
+}
+
+#first {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+#second{
+    color: #e0dede;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#button-quote{
+    background-color: #2b61b9;
+    color:#f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    height: 33px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button-call{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding-left: 600px;
+    padding-top: 15px;
 }

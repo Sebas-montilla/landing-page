@@ -1,13 +1,27 @@
 .quote{
     background-color: #e5e7eb;
     color: #1f2937;
+}
+
+.container{
+    display: flex;
+
+}
+
+.text{
+    padding: 80px 150px 80px 150px;
+    text-align: left;
     font-style: italic;
     font-size: 36px;
     font-weight: 300;
 }
 
-.text{
-    display: flex;
-    padding: 100px;
-    align-items: center;
+#author{
+    text-align: right;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    color: #1f2937;
+    margin-right: 20px;
+    padding-top: 20px;
 }

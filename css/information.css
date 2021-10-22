@@ -3,48 +3,75 @@
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-.box{
+/* .box {
+    background-color: white;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 20px;
+    margin-left: 60px; 
+    height: 100px;
+    width: 100px;
+
+}  */
+
+.wrapper {
     display: flex;
-    align-items: center;
     justify-content: center;
+  } 
+
+.boxes {
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+} 
+
+.infoWrapper {
+    display: flex;
+    gap: 2rem;
+  }
+
+.box li {
+    color: hsl(0, 0%, 38%);
+    font-size: 15px;
+    font-weight: 400;
 }
-.box-one{
+
+.box {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 170px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 38px;
+}
+
+#box1 {
     background-color: white;
-    border: 5px solid #3882f6;
-    border-radius: 30px;
-    padding: 20px;
-    margin: 20px;
-    height: 100px;
-    width: 100px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
 }
-.box-two{
+
+#box2 {
     background-color: white;
-    border: 5px solid #3882f6;
-    border-radius: 30px;
-    padding: 20px;
-    margin: 20px;
-    height: 100px;
-    width: 100px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
 }
-.box-three{
+
+#box3 {
     background-color: white;
-    border-radius: 30px;
-    border: 5px solid #3882f6;
-    padding: 20px;
-    margin: 20px;
-    height: 100px;
-    width: 100px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
 }
-.box-four{
+
+#box4 {
     background-color: white;
-    border-radius: 30px;
-    border: 5px solid #3882f6;
-    padding: 20px;
-    margin: 20px;
-    height: 100px;
-    width: 100px;
-}
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+} 
